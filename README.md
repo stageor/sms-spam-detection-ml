@@ -1,19 +1,19 @@
-# 📧 SMS Spam Classifier using Naive Bayes
+# 📧 Email Spam Classifier using Naive Bayes
 
-A machine learning project that classifies SMS messages as **spam** or **ham (legitimate)** using the Multinomial Naive Bayes algorithm. The pipeline covers everything from raw text preprocessing to model evaluation, with an optional TF-IDF feature enhancement layer.
+A machine learning project that classifies Email messages as **spam** or **ham (legitimate)** using the Multinomial Naive Bayes algorithm. The pipeline covers everything from raw text preprocessing to model evaluation, with an optional TF-IDF feature enhancement layer.
 
 ---
 
 ## 📌 Project Overview
 
-Unsolicited messages are one of the oldest problems in digital communication. This project builds a lightweight, interpretable text classifier trained on a real-world SMS dataset. The goal was to understand how probabilistic models handle natural language — and to do it from scratch without hiding the mechanics behind high-level abstractions.
+Unsolicited messages are one of the oldest problems in digital communication. This project builds a lightweight, interpretable text classifier trained on a real-world Email dataset. The goal was to understand how probabilistic models handle natural language — and to do it from scratch without hiding the mechanics behind high-level abstractions.
 
 ---
 
 ## 📂 Dataset
 
-- **Source:** SMS Spam Collection Dataset
-- **Size:** 5,574 English SMS messages
+- **Source:** Email Spam Collection Dataset
+- **Size:** 5,574 English Email messages
 - **Format:** Two columns — `spam` (label: 0 = ham, 1 = spam) and `text` (raw message content)
 - **Class Distribution:**
   - ~87% Ham (legitimate messages)
